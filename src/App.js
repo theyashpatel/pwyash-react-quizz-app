@@ -61,6 +61,9 @@ function App() {
   };
 
   const handleResetClick = () => {
+    // fix: score not resetting
+    setScore(0);
+
     setCurrentQuestion(0);
     setIsQuizOver(false);
   };
